@@ -37,6 +37,39 @@ img.mypicture{
 
 
 /*about*/
+.about {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url(./images/about2.jpg);
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  height: 91vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: hidden;
+}
+
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 70%;
+  padding: 20px;
+  text-align: center;
+}
+
 
 /* projects*/
 h1:first-of-type {
