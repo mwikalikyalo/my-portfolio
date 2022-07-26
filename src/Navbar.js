@@ -1,22 +1,36 @@
+import React from 'react';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Home from './Home'
-import About from './About'
-import Projects from './Projects'
-import Contact from './Contact'
-import {Route, Routes} from 'react-router-dom'
 
-function App() {
+function Navbar() {
   return (
     <div className="App">
-        <Routes>
-          <Route path="/" element={<Home/> } />
-          <Route path="/about" element={<About/>} />
-          <Route path="/projects" element={<Projects/>} />
-          <Route path="/contact" element={<Contact/>} />
-        </Routes>
+       <nav className="nav" style={{backgroundColor: '#023047'}} >
+        <ul className="nav justify-content-end navbar">
+          <li className="nav-item">
+            <a className="nav-link" 
+            aria-current="page" href="/" 
+            style={{color: "#ffb703", fontWeight: "bolder"}}>
+              Home</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/about" 
+            style={{color: "#ffb703", fontWeight: "bolder"}}>
+              About</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/projects" 
+            style={{color: "#ffb703", fontWeight: "bolder"}}>
+              Projects</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/contact" 
+            style={{color: "#ffb703", fontWeight: "bolder"}}>
+              Contact</a>
+          </li>
+        </ul>
+      </nav>
     </div>
   );
 }
 
-export default App;
+export default Navbar;
