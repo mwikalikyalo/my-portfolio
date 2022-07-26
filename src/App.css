@@ -1,27 +1,149 @@
+/*home*/
 @import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Roboto+Slab:wght@500&family=Source+Sans+Pro&display=swap');
 
-.intro{
-  padding: 10em;
-  margin: 0em;
-  border: 0em;
-  overflow-y: hidden;
-  background-image: url(./images/about1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+.name-image{
+  border-radius: 20px;
+  margin-top: 10px;
 }
 
 img.mypicture{
   clip-path: circle();
   width: 250px;
   position: relative;
-  right: -25em;
-  top: -2em;
+  left: -14%;
+  top: -10%;
+}
 
+.start{
+  background-image: url(./images/about1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro{
+  padding: 6em;
+  margin: 0em;
+  border: 0em;
+  overflow-y: hidden;
 }
 
 .intro h3{
-  color: #fb8500;
-  position: relative;
-  bottom: 0.5em;
-  left: 2em;
+  margin: 17%;
+  padding: 25% 5% 0% 10%;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 5em;
+  color: #fca311;
 }
+
+
+/*about*/
+
+/* projects*/
+h1:first-of-type {
+  font-weight: var(--weight1);
+  color: var(--varyDarkBlue);
+}
+
+h1:last-of-type {
+  color: var(--varyDarkBlue);
+}
+
+@media (max-width: 400px) {
+  h1 {
+      font-size: 1.5rem;
+  }
+}
+
+.header {
+  text-align: center;
+  line-height: 0.8;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.header p {
+  margin: 0 auto;
+  line-height: 2;
+  color: var(--grayishBlue);
+}
+
+.box p {
+  color: var(--grayishBlue);
+}
+
+.box {
+  border-radius: 5px;
+  box-shadow: 0px 30px 40px -20px var(--grayishBlue);
+  padding: 20px;
+  margin: 10px;  
+}
+
+img {
+  float: right;
+}
+
+@media (max-width: 450px) {
+  .box {
+      height: 200px;
+  }
+}
+
+@media (max-width: 950px) and (min-width: 450px) {
+  .box {
+      text-align: center;
+      height: 180px;
+  }
+}
+
+.cyan {
+  border-top: 3px solid var(--cyan);
+}
+.red {
+  border-top: 3px solid var(--red);
+}
+.blue {
+  border-top: 3px solid var(--blue);
+}
+.orange {
+  border-top: 3px solid var(--orange);
+}
+
+h2 {
+  color: var(--varyDarkBlue);
+  font-weight: var(--weight3);
+}
+
+@media (min-width: 950px) {
+  .row1-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .box-down {
+      position: relative;
+      top: 150px;
+  }
+  .box {
+      width: 20%;
+   
+  }
+  .header p {
+      width: 30%;
+  }
+}
+
+:root {
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+  --varyDarkBlue: hsl(234, 12%, 34%);
+  --grayishBlue: hsl(229, 6%, 66%);
+  --veryLightGray: hsl(0, 0%, 98%);
+  --weight1: 200;
+  --weight2: 400;
+  --weight3: 600;
+} 
+
+/*contact*/
