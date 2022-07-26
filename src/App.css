@@ -1,8 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Roboto+Slab:wght@500&family=Source+Sans+Pro&display=swap');
 
+.intro{
+  padding: 10em;
+  margin: 0em;
+  border: 0em;
+  overflow-y: hidden;
+  background-image: url(./images/about1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 img.mypicture{
   clip-path: circle();
   width: 250px;
   position: relative;
-  left: 10em;
+  right: -25em;
+  top: -2em;
+
+}
+
+.intro h3{
+  color: #fb8500;
+  position: relative;
+  bottom: 0.5em;
+  left: 2em;
 }
