@@ -1,17 +1,14 @@
 import React from 'react';
-import Navbar from './Navbar';
-import './App.css';
 
-
-function Home() {
+function Contact(){
   return (
-    <div className="App">
-      <Navbar />
-      <div className="App-header intro">
-          <h3 className="text-center">Winnie Mwikali's Portfolio</h3>
-      </div>
-    </div>
-  );
-}
+     <div>
+        <Navbar/>
+        <div className='container-fluid'>
 
-export default Home;
+        </div>
+     </div>
+  );
+} 
+
+export default Contact;
