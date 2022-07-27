@@ -3,28 +3,35 @@ import Navbar from './Navbar.js'
 
 function Contact(){
   return (
-        <div className='container-fluid'>
-          <footer className="text-center text-lg-start">
-            <div className="container d-flex justify-content-center py-5">
-              <button type="button" className="btn btn-primary btn-lg btn-floating mx-2">
-                <i className="fab fa-facebook-f"></i>
-              </button>
-              <button type="button" className="btn btn-primary btn-lg btn-floating mx-2">
-                <i className="fab fa-youtube"></i>
-              </button>
-              <button type="button" className="btn btn-primary btn-lg btn-floating mx-2">
-                <i className="fab fa-instagram"></i>
-              </button>
-              <button type="button" className="btn btn-primary btn-lg btn-floating mx-2">
-                <i className="fab fa-twitter"></i>
-              </button>
-            </div>
-
-            <div className="text-center text-white p-3">
-              © 2022 Copyright:
-            </div>
-          </footer>
-        </div>
+     <div>
+        <Navbar/>
+        <div className="contact-container">
+          <div className="left-col">
+          </div>
+          <div className="right-col">
+            <div className="theme-switch-wrapper">
+            <label className="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox" />
+            </label>
+          </div>
+        
+        <h4 className='us'>Contact us</h4>
+        
+        <form id="contact-form" method="post">
+          <label for="name">Full name</label>
+      <input type="text" id="name" name="name" placeholder="Your Full Name" required />
+          <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="Your Email Address" required />
+          <label for="message">Message</label>
+      <textarea rows="6" placeholder="Your Message" id="message" name="message" required></textarea>
+          <button type="submit" id="submit" name="submit">Send</button>
+      
+        </form>
+        <div id="error"></div>
+        <div id="success-msg"></div>
+      </div>
+    </div>
+     </div>
   );
 } 
 
