@@ -3,9 +3,9 @@ import Navbar from './Navbar.js'
 
 function Contact(){
   return (
-     <div>
+     <div style={{overflowY:'hidden'}}>
         <Navbar/>
-        <div className="contact-container">
+        <div className="contact-container container-fluid">
           <div className="left-col">
           </div>
           <div className="right-col">
