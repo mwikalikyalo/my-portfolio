@@ -13,18 +13,18 @@ function Projects(){
           <div className="row1-container">
             <div className="box box-down cyan">
               <h2>Awards</h2>
-              <p>A website where users can post their projects and they can be rated in terms of design, 
+              <p className='projects'>A website where users can post their projects and they can be rated in terms of design, 
                 content and userbility</p>
             </div>
 
             <div className="box red">
               <h2>Photo</h2>
-              <p>This is a Django gallery project which shows different images of different locations and categories.</p>
+              <p className='projects'> This is a Django gallery project which shows different images of different locations and categories.</p>
             </div>
 
             <div className="box box-down blue">
               <h2>Password Locker</h2>
-              <p>This is a terminal based Python app that generates and manages accounts and passwords for a user.</p>
+              <p className='projects'>This is a terminal based Python app that generates and manages accounts and passwords for a user.</p>
             </div>
           </div>
         </div>
