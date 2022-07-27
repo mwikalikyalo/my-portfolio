@@ -15,7 +15,7 @@ function Contact(){
             </label>
           </div>
         
-          <h4 className='us'>Contact us</h4>
+          <h4 className='us'>Contact Me</h4>
         
         <form id="contact-form" method="post">
           <label for="name">Full name</label>

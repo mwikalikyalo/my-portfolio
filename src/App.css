@@ -211,3 +211,16 @@ h2 {
   padding: 5rem 3.5rem;
 }
 
+h4 {
+  color:var(--h1-color);
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  letter-spacing: 0.5rem;
+  font-weight: 300;
+}
+
+h4, label, button, .description {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+}
