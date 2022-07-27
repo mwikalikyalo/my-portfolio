@@ -10,9 +10,7 @@ function Contact(){
           </div>
           <div className="right-col">
             <div className="theme-switch-wrapper">
-            <label className="theme-switch" for="checkbox">
-                <input type="checkbox" id="checkbox" />
-            </label>
+           
           </div>
         
           <h4 className='us'>Contact Me</h4>
