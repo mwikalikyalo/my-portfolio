@@ -189,3 +189,25 @@ h2 {
 } 
 
 /*contact*/
+.contact-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background: var(--bg-color);
+}
+
+.left-col {
+  width: 45vw;
+  height: 100%;
+  background-image: url("https://www.history.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTYyNDg1MjE3MTI1Mjc5Mzk4/topic-london-gettyimages-760251843-promo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.right-col {
+  background: var(--bg-color);
+  width: 50vw;
+  height: 100vh;
+  padding: 5rem 3.5rem;
+}
+
