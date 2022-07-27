@@ -224,3 +224,8 @@ h4, label, button, .description {
   font-weight: 400;
   letter-spacing: 0.1rem;
 }
+
+input, textarea, label {
+  width: 40vw;
+  display: block;
+}
