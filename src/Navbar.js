@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import './App.css';
 
 function Navbar() {
@@ -7,25 +8,25 @@ function Navbar() {
        <nav className="nav" style={{backgroundColor: '#023047'}} >
         <ul className="nav justify-content-end navbar">
           <li className="nav-item">
-            <a className="nav-link" 
-            aria-current="page" href="/" 
+            <Link className="nav-link" 
+            aria-current="page" to="/" 
             style={{color: "#ffb703", fontWeight: "bolder"}}>
-              Home</a>
+              Home</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/about" 
+            <Link className="nav-link" to="/about" 
             style={{color: "#ffb703", fontWeight: "bolder"}}>
-              About</a>
+              About</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/projects" 
+            <Link className="nav-link" to="/projects" 
             style={{color: "#ffb703", fontWeight: "bolder"}}>
-              Projects</a>
+              Projects</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/contact" 
+            <Link className="nav-link" to="/contact" 
             style={{color: "#ffb703", fontWeight: "bolder"}}>
-              Contact</a>
+              Contact</Link>
           </li>
         </ul>
       </nav>
